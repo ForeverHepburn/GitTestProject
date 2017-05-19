@@ -23,10 +23,10 @@
     NSLog(@"bundle = %@",myBundle);
     
     
-//    NSString *gifLopath = [myBundle pathForResource:@"feather_gold" ofType:@"png"];
-//    NSLog(@"path = %@",gifLopath);
-//    UIImage *image = [UIImage imageNamed:@"JuXingImage.bundle/feather_gold.png"];
-//    NSLog(@"image = %@",image);
+    NSString *gifLopath = [myBundle pathForResource:@"feather_gold" ofType:@"png"];
+    NSLog(@"path = %@",gifLopath);
+    UIImage *image = [UIImage imageNamed:@"JuXingImage.bundle/feather_gold.png"];
+    NSLog(@"image = %@",image);
 }
 
 
